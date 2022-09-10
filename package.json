@@ -11,7 +11,11 @@
 	"bugs": {
 		"url": "https://github.com/NikolaRHristov/astro-img/issues"
 	},
-	"author": "nikolarhristov",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@lightrix.dev",
+		"url": "https://nikolahristov.tech"
+	},
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -32,6 +36,6 @@
 	"devDependencies": {
 		"@nikolarhristov/config": "0.0.1",
 		"@nikolarhristov/scripts": "0.0.1",
-		"astro": "1.1.6"
+		"astro": "1.2.1"
 	}
 }
