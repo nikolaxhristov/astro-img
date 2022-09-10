@@ -1,1 +1,1 @@
-import{deepmerge as e}from"deepmerge-ts";import n from"./options/index.js";function p(r={}){var o;const t=e(n(),r);return t.path=(o=t.path)!=null&&o.endsWith("/")?t.path:`${t.path}/`,{name:"astro-img",hooks:{}}}export{p as default};
+import{deepmerge as p}from"deepmerge-ts";import e from"./options/index.js";var s=(r={})=>{var o;const t=p(e(),r);return t.path=(o=t.path)!=null&&o.endsWith("/")?t.path:`${t.path}/`,{name:"astro-img",hooks:{}}};export{s as default};
