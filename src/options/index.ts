@@ -10,7 +10,7 @@ export interface Options {
 	logger?: number;
 }
 
-export default (): Options => ({
+export default {
 	path: "./dist/",
 	img: {
 		avif: {
@@ -43,4 +43,4 @@ export default (): Options => ({
 		},
 	},
 	logger: 2,
-});
+} satisfies Options;
