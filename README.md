@@ -44,9 +44,9 @@ Then, apply this integration to your `astro.config.*` file using the
 import type { AstroUserConfig } from "astro";
 import img from "astro-img";
 
-export default {
+export default (): AstroUserConfig => ({
 	integrations: [img()],
-} satisfies AstroUserConfig;
+});
 ```
 
 ## Getting started
@@ -61,13 +61,13 @@ or disable them entirely:
 import type { AstroUserConfig } from "astro";
 import img from "astro-img";
 
-export default {
+export default (): AstroUserConfig => ({
 	integrations: [
 		img({
 			img: false,
 		}),
 	],
-} satisfies AstroUserConfig;
+});
 ```
 
 If your path is different than `dist` be sure to update it accordingly:
@@ -76,14 +76,14 @@ If your path is different than `dist` be sure to update it accordingly:
 import type { AstroUserConfig } from "astro";
 import img from "astro-img";
 
-export default {
+export default (): AstroUserConfig => ({
 	outDir: "./build",
 	integrations: [
 		img({
 			path: "./build",
 		}),
 	],
-} satisfies AstroUserConfig;
+});
 ```
 
 Set logger to 0 if you do not want to see debug messages. Default is 2.
@@ -92,13 +92,13 @@ Set logger to 0 if you do not want to see debug messages. Default is 2.
 import type { AstroUserConfig } from "astro";
 import img from "astro-img";
 
-export default {
+export default (): AstroUserConfig => ({
 	integrations: [
 		img({
 			logger: 0,
 		}),
 	],
-} satisfies AstroUserConfig;
+});
 ```
 
 [astro-img]: https://npmjs.org/astro-img
