@@ -5,13 +5,13 @@
 	"description": "🖼️ AstroJS image component.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nikolarhristov/astro-img.git"
+		"url": "https://github.com/nikolaxhristov/astro-img.git"
 	},
-	"homepage": "https://github.com/nikolarhristov/astro-img#readme",
+	"homepage": "https://github.com/nikolaxhristov/astro-img#readme",
 	"bugs": {
-		"url": "https://github.com/nikolarhristov/astro-img/issues"
+		"url": "https://github.com/nikolaxhristov/astro-img/issues"
 	},
-	"author": "Nikola Hristov <nikola@nikolahristov.tech>",
+	"author": "nikolaxhristov",
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -32,6 +32,6 @@
 	"devDependencies": {
 		"@lightrix/config": "0.0.2",
 		"@lightrix/scripts": "0.0.2",
-		"astro": "1.4.4"
+		"astro": "1.4.5"
 	}
 }
