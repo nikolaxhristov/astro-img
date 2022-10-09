@@ -38,9 +38,8 @@ npm install -D -E astro-img
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
-**astro.config.ts**
-
 ```ts
+// astro.config.ts
 import type { AstroUserConfig } from "astro";
 import img from "astro-img";
 
@@ -103,5 +102,9 @@ export default (): AstroUserConfig => ({
 
 [astro-img]: https://npmjs.org/astro-img
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this integration.
 
 [![Built with Lightrix/npm](https://raw.githubusercontent.com/Lightrix/npm/main/.github/img/favicon-16x16.png)](https://github.com/Lightrix/npm)
