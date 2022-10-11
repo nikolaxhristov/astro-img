@@ -28,8 +28,8 @@
 		"deepmerge-ts": "4.2.2"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.2",
-		"@lightrix/scripts": "0.0.2",
+		"@lightrix/config": "0.0.3",
+		"@lightrix/scripts": "0.0.3",
 		"astro": "1.4.7"
 	}
 }
