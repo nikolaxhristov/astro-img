@@ -45,7 +45,7 @@ import img from "astro-img";
 
 export default {
 	integrations: [img()],
-}
+};
 ```
 
 ## Getting started
@@ -65,7 +65,7 @@ export default {
 			img: false,
 		}),
 	],
-}
+};
 ```
 
 If your path is different than `dist` be sure to update it accordingly:
@@ -80,7 +80,7 @@ export default {
 			path: "./build",
 		}),
 	],
-}
+};
 ```
 
 Set logger to 0 if you do not want to see debug messages. Default is 2.
@@ -94,7 +94,7 @@ export default {
 			logger: 0,
 		}),
 	],
-}
+};
 ```
 
 [astro-img]: https://npmjs.org/astro-img
