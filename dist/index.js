@@ -1,0 +1,1 @@
+import{deepmerge as r}from"deepmerge-ts";import p from"./options/index.js";var i=(o={})=>{const t=r(p(),o);return t.path=t.path?.endsWith("/")?t.path:`${t.path}/`,{name:"astro-img",hooks:{}}};export{i as default};
