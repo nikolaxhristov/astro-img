@@ -1,35 +1,35 @@
 {
-	"name": "astro-img",
-	"version": "0.0.1",
-	"type": "module",
-	"description": "🖼️ AstroJS image component.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/nikolaxhristov/astro-img.git"
-	},
-	"homepage": "https://github.com/nikolaxhristov/astro-img#readme",
-	"bugs": {
-		"url": "https://github.com/nikolaxhristov/astro-img/issues"
-	},
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"keywords": [
-		"astro-integration",
-		"astro-component",
-		"astro",
-		"img",
-		"performance",
-		"svg"
-	],
-	"scripts": {
-		"build": "lightrix build src/index.ts src/lib/*.ts src/options/index.ts"
-	},
-	"dependencies": {
-		"deepmerge-ts": "4.2.2"
-	},
-	"devDependencies": {
-		"@lightrix/config": "0.0.6",
-		"@lightrix/scripts": "0.0.13",
-		"astro": "1.6.0"
-	}
+  "name": "astro-img",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "🖼️ AstroJS image component.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolaxhristov/astro-img.git"
+  },
+  "homepage": "https://github.com/nikolaxhristov/astro-img#readme",
+  "bugs": {
+    "url": "https://github.com/nikolaxhristov/astro-img/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "astro",
+    "img",
+    "performance",
+    "svg"
+  ],
+  "scripts": {
+    "build": "lightrix build src/index.ts src/lib/*.ts src/options/index.ts"
+  },
+  "dependencies": {
+    "deepmerge-ts": "4.2.2"
+  },
+  "devDependencies": {
+    "@lightrix/config": "0.0.6",
+    "@lightrix/scripts": "0.0.13",
+    "astro": "1.6.0"
+  }
 }
