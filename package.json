@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"description": "🖼️ AstroJS image component.",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/nikolaxhristov/astro-img.git"
