@@ -12,7 +12,7 @@ export default interface IMG {
         effort?: number;
         dither?: number;
         loop?: number;
-        delay?: number | Array<number>;
+        delay?: number | number[] | Set<number>;
         force?: boolean;
     };
     heif?: {
@@ -74,7 +74,7 @@ export default interface IMG {
         smartSubsample?: boolean;
         effort?: number;
         loop?: number;
-        delay?: number | Array<number>;
+        delay?: number | number[] | Set<number>;
         force?: boolean;
     };
 }

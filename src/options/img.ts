@@ -22,7 +22,7 @@ export default interface IMG {
 
 		loop?: number;
 
-		delay?: number | Array<number>;
+		delay?: number | number[] | Set<number>;
 
 		force?: boolean;
 	};
@@ -134,7 +134,7 @@ export default interface IMG {
 
 		loop?: number;
 
-		delay?: number | Array<number>;
+		delay?: number | number[] | Set<number>;
 
 		force?: boolean;
 	};
