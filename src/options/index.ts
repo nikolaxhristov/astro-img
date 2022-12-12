@@ -1,6 +1,7 @@
 import type IMG from "./img";
 
 export interface Options {
+	// rome-ignore lint/suspicious/noExplicitAny:
 	[key: string]: any;
 
 	path?: string;
@@ -15,9 +16,11 @@ export default (): Options => ({
 	img: {
 		avif: {
 			chromaSubsampling: "4:4:4",
+			// rome-ignore lint/nursery/noPrecisionLoss:
 			effort: 9,
 		},
 		gif: {
+			// rome-ignore lint/nursery/noPrecisionLoss:
 			effort: 10,
 		},
 		heif: {
@@ -31,6 +34,7 @@ export default (): Options => ({
 			optimiseScans: true,
 		},
 		png: {
+			// rome-ignore lint/nursery/noPrecisionLoss:
 			compressionLevel: 9,
 			palette: true,
 		},
@@ -39,8 +43,10 @@ export default (): Options => ({
 			compression: "lzw",
 		},
 		webp: {
+			// rome-ignore lint/nursery/noPrecisionLoss:
 			effort: 6,
 		},
 	},
+	// rome-ignore lint/nursery/noPrecisionLoss:
 	logger: 2,
 });

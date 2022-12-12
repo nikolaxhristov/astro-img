@@ -1,4 +1,5 @@
 export default interface IMG {
+	// rome-ignore lint/suspicious/noExplicitAny:
 	[key: string]: any;
 
 	avif?: {
