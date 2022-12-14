@@ -1,7 +1,7 @@
 import type IMG from "../options/img";
 
 // rome-ignore lint/suspicious/noExplicitAny:
-export  default async (sharpFile: any, options: IMG = {}) => {
+export default async (sharpFile: any, options: IMG = {}) => {
 	const fileType = sharpFile.options.input.file.split(".").pop();
 
 	if (!fileType) {
